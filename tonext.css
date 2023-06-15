@@ -1,0 +1,180 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Constantia', sans-serif;
+    margin: 0;
+    padding: 20px;
+    align-items: center;
+  }
+ 
+  
+
+  #intro {
+    background-image: url('milkyway.jpg'); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center top;
+    /*height: 100vh; */
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+
+    padding-top: 0; /* Remove top padding */
+    margin-top: 0; /* Remove top margin */
+    overflow: hidden; /* Hide overflow to remove potential spacing */
+
+    font-size: 25px;
+    
+  }
+
+/*one*/
+  #one {
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 540px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    background-color: #3a3a3a;
+  }
+  
+  #one .hidden-text {
+    opacity: 0;
+    font-size: 25px;
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  #one:hover .hidden-text {
+    opacity: 1;
+  }
+  
+/*two*/
+
+#two {
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    background-color: #3a3a3a;
+  }
+  
+  #two .hidden-text {
+    opacity: 0;
+    font-size: 25px;
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  #two:hover .hidden-text {
+    opacity: 1;
+  }
+  
+  /*three*/
+  #three {
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    background-color: #3a3a3a;
+  }
+  
+  #three .hidden-text {
+    opacity: 0;
+    font-size: 25px;
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  #three:hover .hidden-text {
+    opacity: 1;
+  }
+  
+  /*four*/
+  #four {
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    background-color: #3a3a3a;
+  }
+  
+  #four .hidden-text {
+    opacity: 0;
+    font-size: 25px;
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  #four:hover .hidden-text {
+    opacity: 1;
+  }
+  
+  /*five*/
+  #five {
+    font-family: 'Constantia', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    background-color: #3a3a3a;
+  }
+  
+  #five .hidden-text {
+    opacity: 0;
+    font-size: 25px;
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  #five:hover .hidden-text {
+    opacity: 1;
+  }
+  
+
+  
+  /* Footer Section */
+  footer {
+
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+  }
+  
